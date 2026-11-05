@@ -1,0 +1,47 @@
+body {
+    background-color: #FFF2B2;
+    font-family: Lexend, sans-serif;
+}
+p {
+	font-family: Lexend, sans-serif;
+}
+h1 {
+    color: #005BFF;
+    font-family: Poppins, sans-serif;
+}
+h2 {
+    color: #FF1744;
+    font-family: Poppins, sans-serif;
+}
+h3 {
+    color: #FF6D00;
+    font-family: 'Poppins', sans-serif;
+}
+h4 {
+    color: #008C95;
+    font-family: Lexend, sans-serif;
+}
+.destaque {
+	background-color: #FFD633;
+	margin: 20px;
+}
+.destaque2 {
+	background-color: #FFD633;
+}
+.fotos {
+	display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.fotos img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+/*
+    1- No geral, para mim até foi fácil trabalhar com CSS, mas a mais complicada acho que foi a dos destaques, porque já tinha colocado o destaque em diferentes palavras soltas (para as sublinhar) antes de ver que era suposto pôr uma margem para estar a abranger tudo, então acabei por resolvê-lo criando dois destaques diferentes. Ao início, chamei ao segundo "destaque 2" e não "destaque2" o que deu erro na transição para o chrome, então perguntei ao chat nessa secção específica porque é que não funcionava e aí percebi e corrigi. 
+    2- Não tive nenhum erro muito frequente nem grave, porque aprendo depressa. Mas um dos que me aconteceu, super parvo, foi por o "background-color:" no body, ele não estava a interpretar a definição, tive que o reescrever umas 3 vezes, mas lá consegui.
+    3- O "src" vem de "source" e é utilizado para indicar a localização ou a origem de um ficheiro, vídeo, ou imagem. Muitas vezes, anexado a este, vem o "alt", que significa "alternative", e serve para descrever ou legendar este ficheiro, imagem ou video, servindo de alternativa para se em leitores de ecrã estes não carregarem, se saber o que estava ali inserido. 
+*/	
+	
+	
